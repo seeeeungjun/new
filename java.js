@@ -93,4 +93,12 @@ var swiper = new Swiper(".mySwiper3", {
        
   });
     
- 
+  let qwas = document.getElementById('qwas');
+  let qwer = document.getElementById('qwer');
+  qwas.addEventListener('mouseenter', () => {
+    qwer.style.display = 'block';
+  });
+  
+  qwas.addEventListener('mouseleave', () => {
+    qwer.style.display = 'none';
+  });

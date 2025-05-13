@@ -1,17 +1,21 @@
 @media (max-width: 768px){
-    .top_all{display: none;}
+  .menu{display: none;}
+  .menubtn{display: block;margin-left: 60px;margin-top: 30px;}
+  .logoall{margin-left: 10px;}
      .logo{margin: auto;}  
-     .logo img{width: 160px;height: 40px;margin-left: 160px;}
+     .logo img{width: 250px;height: 40px;}
        .logo ul{display: none;}
+       #intro{margin-left: 30px;}
 .videobox{display: none;}
 .loginbox{left: 100px;top: 70px;}
 .serchbox{left: 100px;top: 440px;}
-.sertext{left: 150px;top: 650px;}
+.sertext{left: 180px;top: 600px;}
 .mySwiper{left: -690px;width: 23%;top: 600px;}
 .mySwiper .swiper-pagination{display: none;}
   .swiper-button-next{display: none;}
 .swiper-button-prev{display: none;}
 .midall h2:nth-child(1){display: none;}
+.mid_iconbox{margin-left: 40px;}
 .studybox{display: none;}
 .codiall{display: none;}
 .midbottom{background-repeat: repeat;height: 2200px;}
@@ -25,14 +29,16 @@
 .mySwiper2 img{height: 200px;width: 100%
 }
 .mySwiper2 .swiper-pagination{display: none;}
-.gongzi{margin-left: 30px;font-size: 10px;width: 90%;height: 80%;}
-.zkfy{margin-left: 30px;font-size: 10px;width: 90%;height: 80%;margin-top: 20px;}
+.gongzi{margin-left: 30px;font-size: 10px;width: 90%;line-height: 8;font-size: 10px;}
+.gongzi li a{font-size: 15px;}
+.zkfy{margin-left: 30px;font-size: 10px;width: 90%;margin-top: 20px;line-height: 8;font-size: 10px;}
+.zkfy li a{font-size: 15px;padding-right: 10px;}
 .bottomtop{display: block;margin: auto;}
 .lastcontent{margin: auto;}
 .help{display: none;}
 .help>h1{}
 .map>h1{margin-right: 150px;font-size: 20px;}
-.map{margin-left: 30px; }
+#daumRoughmapContainer1746060338120{margin-left: -50px;} 
 .brand{display: none;}
 .footer{}
 .footertext{margin-left: -200px;}

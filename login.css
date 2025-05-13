@@ -1,0 +1,40 @@
+@font-face {
+  
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;}
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Pretendard-Regular';}
+.inner{width: 100%;}
+.logo{margin-top: 2%;
+width: 39%;margin-left: 39%;}
+.linner{border: 1px solid rgba(197, 197, 197, 0.288);margin-top: 35px;}
+.loginbox{height: 700px;width: 650px;margin-left: 32%;margin-top: 50px;border: 10px solid rgba(110, 109, 109, 0.295);border-radius: 10px;}
+.loginbox > h3{margin-top: 50px;margin-left: 90px;}
+.loginbox > h3 > span{color: red;}
+.idpass{text-align: center;margin-top: 40px;height: 290px;width: 50%;margin-left: 160px;line-height: 4;border-radius: 10px;}
+
+.id{width: 300px;height: 40px;border-style: dashed;}
+.pass{width: 300px;height: 40px;margin-top: 10px;border-style:dashed}
+
+.loginbtn{background-color: rgb(81, 169, 228);width: 54%;height: 60px;margin-left: 23%;font-size: 20px;color: white;cursor: pointer;border: none;}
+.loginbtn:hover{background-color: rgb(29, 162, 250);color: black;}
+.find{display: flex;justify-content: space-around;margin-top: 50px;font-size: 20px;}
+.find a{text-decoration: none;color: #000;}
+.find a:hover{color: red;}
+.snsall{font-size: 60px;margin-left: 20%;margin-top: 20px;}
+.snsall i{margin-left: 50px;transition: 0.5s;}
+
+.snsall i:hover{transform: translateY(-3px);}
+
+@media (max-width: 768px){
+  .logo{margin-left: 11%;width: 150px;margin-top: 20px;}
+  .loginbox{margin-left: 1%;width: 490px;}
+  .loginbox > h3{margin-left: 10px;}
+  .idpass{margin-left: 80px;}
+  .idpass>h4{margin-left: 50px;}
+  .loginbtn{margin-left: 108px;}
+  .snsall{margin-left: 60px;}
+  .find{margin-left: 10px;}
+}

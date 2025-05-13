@@ -859,7 +859,7 @@ font-size: 17px;}
 .lasttext{color: #fff;margin-left: 250px;margin-top: 150px;font-size: 10px;}
 
 .ani111{animation:aaa 0.5s infinite;}
-
+.lastbox{width: 100%;height: 40px;background-color: rgb(8, 8, 8);border-top: 1px solid rgb(255, 255, 255);}
 @keyframes aaa{
     0%{opacity: 0%;color: red;}
     50%{opacity: 50%;color: yellow;}
@@ -875,6 +875,4 @@ font-size: 17px;}
     100%{opacity: 100%;color: blue;}
 }
 
-
-.lastbox{width: 100%;height: 40px;background-color: rgb(8, 8, 8);border-top: 1px solid rgb(255, 255, 255);}
 
